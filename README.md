@@ -6,27 +6,27 @@ Concept:
 
 Technology: 
 -----------
--I/O : MQTT
--Audio/Video : Jitsi?? WebRtc?? Aoirtc??
+-I/O : MQTT  
+-Audio/Video : Jitsi?? WebRtc?? Aoirtc??  
 
 Implementation:
 --------------
-DoorSystem : 
-  -Configuration
-  -Audio/Video Server
-  -MQTT Broker
-  -MQTT Client
+DoorSystem :   
+  -Configuration  
+  -Audio/Video Server  
+  -MQTT Broker  
+  -MQTT Client  
 
-Client :
-  -WebClient
-  -MQTT Client 
+Client :  
+  -WebClient  
+  -MQTT Client   
   
 
-Security:
+Security:  
 ---------
 
 
-External Ressources:
+External Ressources:  
 --------------------
-https://www.pyimagesearch.com/2019/09/02/opencv-stream-video-to-web-browser-html-page/
+https://www.pyimagesearch.com/2019/09/02/opencv-stream-video-to-web-browser-html-page/  
 https://github.com/aiortc/aiortc
