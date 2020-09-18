@@ -1,7 +1,5 @@
-# DoorIn
+# Door Intercom
 
-Door Intercom
--------------
 
 Concept:
 --------
