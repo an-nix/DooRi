@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM debian:latest
 
 # ignore dialogue
 ENV DEBIAN_FRONTEND=noninteractive
@@ -39,11 +39,16 @@ RUN pip install --upgrade pip setuptools wheel
 RUN pip install scikit-build
 RUN pip install cmake
 
-RUN pip install opencv-python 
+#RUN pip install opencv-python 
 #RUN pip install opencv-contrib-python-headless
 
+RUN apt-get install python3-opencv -y
+
+RUN pip install aiohttp_basicauth
+
+
 EXPOSE 8080
-COPY ./src /workspace
+COPY ./app /workspace
 WORKDIR /workspace
 
 CMD python3 ./server.py
