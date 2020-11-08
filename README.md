@@ -3,6 +3,7 @@
 Fork balecam
 
 docker build -t mebaxyz/doorin .
+  
 docker run --privileged -p 8080:80 --name doorin -d mebaxyz/doorin
 
 
