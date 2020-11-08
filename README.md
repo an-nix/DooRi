@@ -1,29 +1,9 @@
 # Door Intercom : DoorIn
 
+Fork balecam
 
-Concept:
---------
-
-Technology: 
------------
--I/O : MQTT  
--Audio/Video : Jitsi?? WebRtc?? Aoirtc??  
-
-Implementation:
---------------
-DoorSystem :   
-  -Configuration  
-  -Audio/Video Server  
-  -MQTT Broker  
-  -MQTT Client  
-
-Client :  
-  -WebClient  
-  -MQTT Client   
-  
-
-Security:  
----------
+docker build -t mebaxyz/doorin .
+docker run --privileged -p 8080:80 --name doorin -d mebaxyz/doorin
 
 
 External Ressources:  
